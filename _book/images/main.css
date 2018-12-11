@@ -1,0 +1,303 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.content-wrapper {
+  position: relative;
+}
+
+.map,
+.minemap-map,
+#map {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.display-message {
+  position: absolute;
+  top: 58px;
+  right: 20px;
+  width: 600px;
+  margin: 10px;
+  padding: 10px;
+  z-index: 999;
+}
+
+.opp-area-btn {
+  position: absolute;
+  top: 58px;
+  left: 20px;
+  z-index: 999;
+  overflow: hidden;
+  max-width: 70%;
+}
+
+.inner {
+  background: rgba(255, 255, 255, 0.7);
+  padding: 0;
+  opacity: 1;
+  left: 20px;
+  margin-top: 0;
+  display:inline-block;
+}
+
+.text-right {
+  height: 34px;
+  background: rgba(255, 255, 255, 0.7);
+  padding-right: 6px;
+  padding-left: 6px;
+  padding-top: 6px;
+  margin-top: 0;
+  margin-right: 0;
+  float: right;
+}
+.text-left {
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 6px;
+  height: 34px;
+  background: rgba(255, 255, 255, 0.7);
+  margin-top: 0;
+  float: left;
+}
+.ceng {
+  width: 100%;
+  position: absolute;
+  top: 58px;
+  left: 20px;
+  z-index: 999;
+  background: rgba(247, 247, 247, 0);
+  overflow: hidden;
+  padding: 0;
+}
+.markers {
+  position: absolute;
+  top: 58px;
+  right: 20px;
+  z-index: 999;
+  background: #fff;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.opp-area-btn label {
+  float: left;
+  line-height: 35px;
+  margin: 10px;
+}
+
+.opp-area-btn #search_type {
+  float: left;
+  height: 30px;
+  margin: 10px;
+}
+
+.opp-area-btn #search_code {
+  float: left;
+  height: 30px;
+  margin: 10px;
+}
+
+.res {
+  position: absolute;
+  width: 150px;
+  height: 200px;
+  right: 0;
+  top: 0;
+  background: #f5f5f5;
+  overflow: auto;
+  padding: 5px;
+}
+
+.res li {
+  padding: 5px 0;
+}
+
+.res-box {
+  position: absolute;
+  right: 0;
+  top: 100px;
+  background: #f5f5f5;
+  display: none;
+}
+
+.res-box ul {
+  list-style: none;
+  width: 280px;
+  max-height: 500px;
+  background: #f5f5f5;
+  overflow: auto;
+  padding: 5px;
+  margin-bottom: 0;
+}
+
+.res-box .res-error {
+  color: red;
+  font-weight: bold;
+  text-align:center;
+}
+
+.res-box li {
+  padding: 10px 0;
+  overflow: hidden;
+  border-bottom: solid 1px #ddd;
+  cursor: pointer;
+}
+
+.res-box li a {
+  color: #333;
+}
+
+.res-icon {
+  width: 22px;
+  height: 34px;
+  float: left;
+  background: url("../images/markers.png");
+  background-position: 374px 1011px;
+  text-align: center;
+  line-height: 24px;
+  color: #fff;
+  font-size: 10px;
+}
+
+.res-icon:hover {
+  background-position: 374px 975px;
+}
+
+.res-box li a .res-con {
+  width: 220px;
+  float: left;
+}
+
+.res-no-1 {
+  background-position: 0 -139px;
+}
+
+.res-no-1:hover {
+  background-position: 0 -166px;
+}
+
+.res-no-2 {
+  background-position: -18px -139px;
+}
+
+.res-no-2:hover {
+  background-position: -18px -166px;
+}
+
+.res-no-3 {
+  background-position: -36px -139px;
+}
+
+.res-no-3:hover {
+  background-position: -36px -166px;
+}
+
+.res-no-4 {
+  background-position: -54px -139px;
+}
+
+.res-no-4:hover {
+  background-position: -54px -166px;
+}
+
+.res-no-5 {
+  background-position: -72px -139px;
+}
+
+.res-no-5:hover {
+  background-position: -72px -166px;
+}
+
+.res-no-6 {
+  background-position: -90px -139px;
+}
+
+.res-no-6:hover {
+  background-position: -90px -166px;
+}
+
+.res-no-7 {
+  background-position: -108px -139px;
+}
+
+.res-no-7:hover {
+  background-position: -108px -166px;
+}
+
+.res-no-8 {
+  background-position: -126px -139px;
+}
+
+.res-no-8:hover {
+  background-position: -126px -166px;
+}
+
+.res-no-9 {
+  background-position: -144px -139px;
+}
+
+.res-no-9:hover {
+  background-position: -144px -166px;
+}
+
+.res-no-10 {
+  background-position: -162px -139px;
+}
+
+.res-no-10:hover {
+  background-position: -162px -166px;
+}
+
+.paging {
+  list-style: none;
+  padding-top: 0 !important;
+}
+
+.paging > li {
+  float: left;
+  padding: 2px 5px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.paging .pageItem {
+  border: solid thin #dddddd;
+  margin: 2px;
+}
+
+.paging .pageItemActive {
+  border: solid thin #0099ff;
+  margin: 2px;
+  background-color: #0099ff;
+  color: white;
+}
+
+.paging .pageItem:hover {
+  border: solid thin #0099ff;
+  background-color: #0099ff;
+  color: white;
+}
+
+.paging .pageItemDisable {
+  border: solid thin #dddddd;
+  margin: 2px;
+  background-color: #dddddd;
+}
+
+.res-address {
+  font-size: 12px;
+  color: #999;
+}
+
+.form-group > label {
+  margin-top: 0;
+}
+@media (min-width: 768px) {
+  .form-inline .form-group, .form-inline .btn {
+    margin-bottom: 5px;
+  }
+}

@@ -1,0 +1,331 @@
+[
+{
+"name": "基础模块",
+"class": "root",
+"list": [
+{
+"name": "基础地图",
+"url": "base/base"
+},
+{
+"name": "工具组件",
+"url": "base/tools"
+},
+{
+"name": "清除操作",
+"url": "base/clear"
+},
+{
+"name": "地图事件",
+"url": "base/map-event"
+},
+{
+"name": "全屏",
+"url": "base/full-screen"
+},
+{
+"name": "点坐标是否可见",
+"url": "base/point-is-visible"
+},
+{
+"name": "正逆地址转换",
+"url": "base/inverse-address"
+},
+{
+"name": "像素经纬度转换",
+"url": "base/inverse-pixel-and-geo"
+},
+{
+"name": "定位",
+"url": "base/move-to-lnglat"
+},
+{
+"name": "飞行",
+"url": "base/fly"
+},
+{
+"name": "获取距离",
+"url": "base/gain-distance"
+},
+{
+"name": "获取中心点",
+"url": "base/get-center"
+},
+{
+"name": "计算多边形面积",
+"url": "base/compute-area"
+},
+{
+"name": "地图样式切换",
+"url": "base/set-map-style"
+},
+{
+"name": "地图倾角旋转角",
+"url": "base/pitch-and-bearing"
+},
+{
+"name": "地理坐标与投影坐标转换",
+"url": "base/inverse-geo-mercator"
+},
+{
+"name": "经纬度、层级",
+"url": "base/get-lnglat-zoom"
+},
+{
+"name": "经纬度平移",
+"url": "base/panto"
+},
+{
+"name": "测距测面积",
+"url": "base/measure"
+},
+{
+"name": "坐标系转换",
+"url": "base/coordinates-translate"
+},
+{
+"name": "POI基础图层控制",
+"url": "base/baselayer-controler"
+},
+{
+"name": "计算缓冲区",
+"url": "base/buffer"
+},
+{
+"name": "计算扇形",
+"url": "base/sector"
+}
+]
+},
+{
+"name": "几何图形",
+"class": "root",
+"list": [
+{
+"name": "画点",
+"url": "geometry/draw-point"
+},
+{
+"name": "画线",
+"url": "geometry/draw-line"
+},
+{
+"name": "画三角形",
+"url": "geometry/draw-triangle"
+},
+{
+"name": "画矩形",
+"url": "geometry/draw-rectangle"
+},
+{
+"name": "画圆形",
+"url": "geometry/draw-circular"
+},
+{
+"name": "画多边形",
+"url": "geometry/draw-polygon"
+},
+{
+"name": "画扇形",
+"url": "geometry/draw-sector"
+},
+{
+"name": "几何图层的显示和隐藏",
+"url": "geometry/show-graphics"
+}
+]
+},
+{
+"name": "轨迹刻画",
+"class": "root",
+"list": [
+{
+"name": "实时轨迹刻画",
+"url": "track/real-time-track"
+},
+{
+"name": "历史轨迹刻画",
+"url": "track/history-track"
+}
+]
+},
+{
+"name": "服务",
+"class": "root",
+"list": [
+{
+"name": "综合查询",
+"url": "service/search"
+},
+{
+"name": "多边形查询",
+"url": "service/search-graphics"
+},
+{
+"name": "缓冲区查询",
+"url": "service/search-buffer"
+},
+{
+"name": "自有数据缓冲区查询",
+"url": "service/search-custom-buffer"
+},
+{
+"name": "道路查询",
+"url": "service/search-road"
+},
+{
+"name": "路口查询",
+"url": "service/search-cross"
+},
+{
+"name": "图层查询",
+"url": "service/search-layer"
+},
+{
+"name": "自有数据关键字查询",
+"url": "service/custom-search"
+},
+{
+"name": "自有数据多边形查询",
+"url": "service/custom-search-graphics"
+},
+{
+"name": "最短路径规划",
+"url": "service/min-dis-plan"
+},
+{
+"name": "时间最短路径规划",
+"url": "service/min-time-plan"
+},
+{
+"name": "实时路况拥堵情况",
+"url": "service/rtime-route-monitor"
+},
+{
+"name": "查询行政区划",
+"url": "service/get-geometry-by-code"
+},
+{
+"name": "根据坐标点查询行政区（全国）",
+"url": "service/get-admin-by-point"
+}
+]
+},
+{
+"name": "图层",
+"class": "root",
+"list": [
+{
+"name": "显示隐藏图层",
+"url": "layer/layer-display"
+},
+{
+"name": "图层对象事件",
+"url": "layer/layer-events"
+},
+{
+"name": "图层添加",
+"url": "layer/add-layer"
+},
+{
+"name": "更新图层",
+"url": "layer/update-layer"
+},
+{
+"name": "卡口",
+"url": "layer/check-point"
+},
+{
+"name": "摄像头",
+"url": "layer/camera"
+},
+{
+"name": "警察交警",
+"url": "layer/police"
+},
+{
+"name": "路口信号机",
+"url": "layer/cross-signal"
+}
+]
+},
+{
+"name": "关系图",
+"class": "root",
+"list": [
+{
+"name": "迁徙图",
+"url": "relationMap/od-services"
+}
+]
+},
+{
+"name": "热力图",
+"class": "root",
+"list": [
+{
+"name": "实时热力图",
+"url": "heatMap/real-time-heat-map"
+},
+{
+"name": "历史热力图",
+"url": "heatMap/history-heat-map"
+}
+]
+},
+{
+"name": "信息窗体",
+"class": "root",
+"list": [
+{
+"name": "弹框",
+"url": "popup/popups"
+},
+{
+"name": "自定义弹框",
+"url": "popup/custom-popups"
+}
+]
+},
+{
+"name": "标记",
+"class": "root",
+"list": [
+{
+"name": "标记",
+"url": "marker/markers"
+}
+]
+},
+{
+"name": "自定义覆盖物",
+"class": "root",
+"list": [
+{
+"name": "自定义覆盖物",
+"url": "customOverlay/custom-overlays"
+}
+]
+},
+{
+"name": "文本",
+"class": "root",
+"list": [
+{
+"name": "文本",
+"url": "text/texts"
+}
+]
+},
+{
+"name": "地理围栏",
+"class": "root",
+"list": [
+{
+"name": "地理围栏",
+"url": "geoFencing/geo-fencing"
+}
+]
+}
+]
+下载|复制|删除当前路径：[0].list[1].name

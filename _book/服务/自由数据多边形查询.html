@@ -1,0 +1,1545 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>自由数据多边形查询 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../styles/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="最短路径规划.html" />
+    
+    
+    <link rel="prev" href="自由数据关键字查询.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    公共引用模块
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../基础模块/基础地图.html">
+            
+                <a href="../基础模块/基础地图.html">
+            
+                    
+                    基础模块
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../基础模块/基础地图.html">
+            
+                <a href="../基础模块/基础地图.html">
+            
+                    
+                    基础地图
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../基础模块/工具组件.html">
+            
+                <a href="../基础模块/工具组件.html">
+            
+                    
+                    工具组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../基础模块/清除操作.html">
+            
+                <a href="../基础模块/清除操作.html">
+            
+                    
+                    清除操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../基础模块/地图事件.html">
+            
+                <a href="../基础模块/地图事件.html">
+            
+                    
+                    地图事件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../基础模块/全屏.html">
+            
+                <a href="../基础模块/全屏.html">
+            
+                    
+                    全屏
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="../基础模块/点坐标是否可见.html">
+            
+                <a href="../基础模块/点坐标是否可见.html">
+            
+                    
+                    点坐标是否可见
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="../基础模块/正逆地址转换.html">
+            
+                <a href="../基础模块/正逆地址转换.html">
+            
+                    
+                    正逆地址转换
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="../基础模块/像素经纬度转换.html">
+            
+                <a href="../基础模块/像素经纬度转换.html">
+            
+                    
+                    像素经纬度转换
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="../基础模块/定位.html">
+            
+                <a href="../基础模块/定位.html">
+            
+                    
+                    定位
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="../基础模块/飞行.html">
+            
+                <a href="../基础模块/飞行.html">
+            
+                    
+                    飞行
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.11" data-path="../基础模块/获取距离.html">
+            
+                <a href="../基础模块/获取距离.html">
+            
+                    
+                    获取距离
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.12" data-path="../基础模块/获取中心点.html">
+            
+                <a href="../基础模块/获取中心点.html">
+            
+                    
+                    获取中心点
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.13" data-path="../基础模块/计算多边形面积.html">
+            
+                <a href="../基础模块/计算多边形面积.html">
+            
+                    
+                    计算多边形面积
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.14" data-path="../基础模块/地图样式切换.html">
+            
+                <a href="../基础模块/地图样式切换.html">
+            
+                    
+                    地图样式切换
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.15" data-path="../基础模块/地图倾角旋转角.html">
+            
+                <a href="../基础模块/地图倾角旋转角.html">
+            
+                    
+                    地图倾角旋转角
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.16" data-path="../基础模块/地理坐标与投影坐标转换.html">
+            
+                <a href="../基础模块/地理坐标与投影坐标转换.html">
+            
+                    
+                    地理坐标与投影坐标转换
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.17" data-path="../基础模块/经纬度、层级.html">
+            
+                <a href="../基础模块/经纬度、层级.html">
+            
+                    
+                    经纬度、层级
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.18" data-path="../基础模块/经纬度平移.html">
+            
+                <a href="../基础模块/经纬度平移.html">
+            
+                    
+                    经纬度平移
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.19" data-path="../基础模块/测距侧面积.html">
+            
+                <a href="../基础模块/测距侧面积.html">
+            
+                    
+                    测距侧面积
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.20" data-path="../基础模块/坐标系转换.html">
+            
+                <a href="../基础模块/坐标系转换.html">
+            
+                    
+                    坐标系转换
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.21" data-path="../基础模块/POI基础图层控制.html">
+            
+                <a href="../基础模块/POI基础图层控制.html">
+            
+                    
+                    POI基础图层控制
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.22" data-path="../基础模块/计算缓冲区.html">
+            
+                <a href="../基础模块/计算缓冲区.html">
+            
+                    
+                    计算缓冲区
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.23" data-path="../基础模块/计算扇形.html">
+            
+                <a href="../基础模块/计算扇形.html">
+            
+                    
+                    计算扇形
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../几何图形/画点.html">
+            
+                <a href="../几何图形/画点.html">
+            
+                    
+                    几何图形
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../几何图形/画点.html">
+            
+                <a href="../几何图形/画点.html">
+            
+                    
+                    画点
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../几何图形/画线.html">
+            
+                <a href="../几何图形/画线.html">
+            
+                    
+                    画线
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../几何图形/画三角形.html">
+            
+                <a href="../几何图形/画三角形.html">
+            
+                    
+                    画三角形
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../几何图形/画矩形.html">
+            
+                <a href="../几何图形/画矩形.html">
+            
+                    
+                    画矩形
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../几何图形/画圆形.html">
+            
+                <a href="../几何图形/画圆形.html">
+            
+                    
+                    画圆形
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../几何图形/画多边形.html">
+            
+                <a href="../几何图形/画多边形.html">
+            
+                    
+                    画多边形
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="../几何图形/画扇形.html">
+            
+                <a href="../几何图形/画扇形.html">
+            
+                    
+                    画扇形
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="../几何图形/几何图层的显示和隐藏.html">
+            
+                <a href="../几何图形/几何图层的显示和隐藏.html">
+            
+                    
+                    几何图层的显示和隐藏
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../轨迹刻画/实时轨迹刻画.html">
+            
+                <a href="../轨迹刻画/实时轨迹刻画.html">
+            
+                    
+                    轨迹刻画
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../轨迹刻画/实时轨迹刻画.html">
+            
+                <a href="../轨迹刻画/实时轨迹刻画.html">
+            
+                    
+                    实时轨迹刻画
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../轨迹刻画/历史轨迹刻画.html">
+            
+                <a href="../轨迹刻画/历史轨迹刻画.html">
+            
+                    
+                    历史轨迹刻画
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="综合查询.html">
+            
+                <a href="综合查询.html">
+            
+                    
+                    服务
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="综合查询.html">
+            
+                <a href="综合查询.html">
+            
+                    
+                    综合查询
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="多边形查询.html">
+            
+                <a href="多边形查询.html">
+            
+                    
+                    多边形查询
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="缓冲区查询.html">
+            
+                <a href="缓冲区查询.html">
+            
+                    
+                    缓冲区查询
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="自由数据缓冲区查询.html">
+            
+                <a href="自由数据缓冲区查询.html">
+            
+                    
+                    自由数据缓冲区查询
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="道路查询.html">
+            
+                <a href="道路查询.html">
+            
+                    
+                    道路查询
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6" data-path="路口查询.html">
+            
+                <a href="路口查询.html">
+            
+                    
+                    路口查询
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7" data-path="图层查询.html">
+            
+                <a href="图层查询.html">
+            
+                    
+                    图层查询
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.8" data-path="自由数据关键字查询.html">
+            
+                <a href="自由数据关键字查询.html">
+            
+                    
+                    自由数据关键字查询
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.5.9" data-path="自由数据多边形查询.html">
+            
+                <a href="自由数据多边形查询.html">
+            
+                    
+                    自由数据多边形查询
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.10" data-path="最短路径规划.html">
+            
+                <a href="最短路径规划.html">
+            
+                    
+                    最短路径规划
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.11" data-path="时间最短路径规划.html">
+            
+                <a href="时间最短路径规划.html">
+            
+                    
+                    时间最短路径规划
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.12" data-path="实时路况拥堵情况.html">
+            
+                <a href="实时路况拥堵情况.html">
+            
+                    
+                    实时路况拥堵情况
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.13" data-path="查询行政区划.html">
+            
+                <a href="查询行政区划.html">
+            
+                    
+                    查询行政区划
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.14" data-path="根据左边点查询行政区.html">
+            
+                <a href="根据左边点查询行政区.html">
+            
+                    
+                    根据左边点查询行政区
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../图层/显示隐藏图层.html">
+            
+                <a href="../图层/显示隐藏图层.html">
+            
+                    
+                    图层
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../图层/显示隐藏图层.html">
+            
+                <a href="../图层/显示隐藏图层.html">
+            
+                    
+                    显示隐藏图层
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../图层/图层对象事件.html">
+            
+                <a href="../图层/图层对象事件.html">
+            
+                    
+                    图层对象事件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../图层/图层添加.html">
+            
+                <a href="../图层/图层添加.html">
+            
+                    
+                    图层添加
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../图层/更新图层.html">
+            
+                <a href="../图层/更新图层.html">
+            
+                    
+                    更新图层
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="../图层/卡口.html">
+            
+                <a href="../图层/卡口.html">
+            
+                    
+                    卡口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" data-path="../图层/摄像头.html">
+            
+                <a href="../图层/摄像头.html">
+            
+                    
+                    摄像头
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.7" data-path="../图层/警察交警.html">
+            
+                <a href="../图层/警察交警.html">
+            
+                    
+                    警察交警
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.8" data-path="../图层/路口信号机.html">
+            
+                <a href="../图层/路口信号机.html">
+            
+                    
+                    路口信号机
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../关系图/迁徙图.html">
+            
+                <a href="../关系图/迁徙图.html">
+            
+                    
+                    关系图
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../关系图/迁徙图.html">
+            
+                <a href="../关系图/迁徙图.html">
+            
+                    
+                    迁徙图
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../热力图/实时热力图.html">
+            
+                <a href="../热力图/实时热力图.html">
+            
+                    
+                    热力图
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../热力图/实时热力图.html">
+            
+                <a href="../热力图/实时热力图.html">
+            
+                    
+                    实时热力图
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../热力图/历史热力图.html">
+            
+                <a href="../热力图/历史热力图.html">
+            
+                    
+                    历史热力图
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../信息窗体/弹框.html">
+            
+                <a href="../信息窗体/弹框.html">
+            
+                    
+                    信息窗体
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../信息窗体/弹框.html">
+            
+                <a href="../信息窗体/弹框.html">
+            
+                    
+                    弹框
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="../信息窗体/自定义弹框.html">
+            
+                <a href="../信息窗体/自定义弹框.html">
+            
+                    
+                    自定义弹框
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../标记/标记.html">
+            
+                <a href="../标记/标记.html">
+            
+                    
+                    标记
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="../标记/标记.html">
+            
+                <a href="../标记/标记.html">
+            
+                    
+                    标记
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../自定义覆盖物/自定义覆盖物.html">
+            
+                <a href="../自定义覆盖物/自定义覆盖物.html">
+            
+                    
+                    自定义覆盖物
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.11.1" data-path="../自定义覆盖物/自定义覆盖物.html">
+            
+                <a href="../自定义覆盖物/自定义覆盖物.html">
+            
+                    
+                    自定义覆盖物
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="../文本/文本.html">
+            
+                <a href="../文本/文本.html">
+            
+                    
+                    文本
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.12.1" data-path="../文本/文本.html">
+            
+                <a href="../文本/文本.html">
+            
+                    
+                    文本
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="../地理围栏/地理围栏.html">
+            
+                <a href="../地理围栏/地理围栏.html">
+            
+                    
+                    地理围栏
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.13.1" data-path="../地理围栏/地理围栏.html">
+            
+                <a href="../地理围栏/地理围栏.html">
+            
+                    
+                    地理围栏
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >自由数据多边形查询</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x81EA;&#x6709;&#x6570;&#x636E;&#x591A;&#x8FB9;&#x5F62;&#x67E5;&#x8BE2;">&#x81EA;&#x6709;&#x6570;&#x636E;&#x591A;&#x8FB9;&#x5F62;&#x67E5;&#x8BE2;</h1>
+<blockquote>
+<p>&#x67E5;&#x8BE2;&#x6307;&#x5B9A;&#x5F62;&#x72B6;&#x7684;&#x81EA;&#x6709;&#x6570;&#x636E;</p>
+</blockquote>
+<p><img src="../images/&#x81EA;&#x6709;&#x6570;&#x636E;&#x591A;&#x8FB9;&#x5F62;&#x67E5;&#x8BE2;.png" alt="&#x81EA;&#x6709;&#x6570;&#x636E;&#x591A;&#x8FB9;&#x5F62;&#x67E5;&#x8BE2;"></p>
+<h2 id="&#x8FD0;&#x884C;&#x4EE3;&#x7801;&#xFF1A;">&#x8FD0;&#x884C;&#x4EE3;&#x7801;&#xFF1A;</h2>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;title&gt;&#x81EA;&#x6709;&#x6570;&#x636E;&#x591A;&#x8FB9;&#x5F62;&#x67E5;&#x8BE2;&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;/kmapdemo/css/bootstrap.min.css&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;/kmapdemo/css/main.css&quot;&gt;
+    &lt;script src=&apos;/kmapdemo/js/jquery-2.2.3.min.js&apos;&gt;&lt;/script&gt;
+    &lt;script src=&quot;/kmapdemo/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+    &lt;style&gt;
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body,
+        #map {
+            width: 100%;
+            height: 100%;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;div class=&quot;opp-area-btn inner&quot;&gt;
+        &lt;div class=&quot;form-inline&quot;&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+                &lt;label&gt;&#x5173;&#x952E;&#x5B57;&lt;/label&gt;
+                &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;keyword&quot; placeholder=&quot;&#x5173;&#x952E;&#x5B57;&quot; value=&quot;310&quot;&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+                &lt;label&gt;&#x9875;&#x7801;&lt;/label&gt;
+                &lt;input type=&quot;number&quot; class=&quot;form-control&quot; style=&quot;width: 70px;&quot; id=&quot;pageNumber&quot; placeholder=&quot;&#x9875;&#x7801;&quot; value=&quot;1&quot;&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+                &lt;label&gt;&#x6700;&#x5927;&#x6570;&#x91CF;&lt;/label&gt;
+                &lt;input type=&quot;number&quot; class=&quot;form-control&quot; style=&quot;width: 70px;&quot; id=&quot;maxCount&quot; placeholder=&quot;&#x6700;&#x5927;&#x6570;&#x91CF;&quot; value=&quot;10&quot;&gt;
+            &lt;/div&gt;
+            &lt;button class=&quot;btn btn-primary&quot; id=&quot;triangle_search&quot;&gt;&#x4E09;&#x89D2;&#x5F62;&#x67E5;&#x8BE2;&lt;/button&gt;
+            &lt;button class=&quot;btn btn-primary&quot; id=&quot;rectangle_search&quot;&gt;&#x77E9;&#x5F62;&#x67E5;&#x8BE2;&lt;/button&gt;
+            &lt;button class=&quot;btn btn-primary&quot; id=&quot;circular_search&quot;&gt;&#x5706;&#x5F62;&#x67E5;&#x8BE2;&lt;/button&gt;
+            &lt;button class=&quot;btn btn-primary&quot; id=&quot;polygon_search&quot;&gt;&#x591A;&#x8FB9;&#x5F62;&#x67E5;&#x8BE2;&lt;/button&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div id=&quot;map&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;res-box&quot;&gt;
+        &lt;ul id=&quot;resCon&quot;&gt;&lt;/ul&gt;
+    &lt;/div&gt;
+
+    &lt;script src=&quot;/kmapdemo/kmap/kmap-service-main-v1.6.7.js&quot;&gt;&lt;/script&gt;
+    &lt;script&gt;
+        window.onload = function() {
+            var kmap;
+
+
+            var onLoadMap = function() {
+                bindPageEvents();
+            };
+            //&#x8C03;&#x7528;&#x79D1;&#x8FBE;&#x5730;&#x56FE;API&#x63A5;&#x53E3;&#x7684;&#x914D;&#x7F6E;&#x9879;
+            var config = {
+                configUrl: &apos;/kmapdemo/kmap/config.json&apos;,
+                containerId: &apos;map&apos;,
+                mapType: 3,
+                onLoadMap: onLoadMap //&#x914D;&#x7F6E;&#x56DE;&#x8C03;&#x65B9;&#x6CD5;&#xFF0C;&#x7528;&#x6765;&#x5904;&#x7406;&#x4E1A;&#x52A1;
+            };
+            var resultData = null;
+
+            function bindPageEvents() {
+                //&#x4E09;&#x89D2;&#x5F62;&#x67E5;&#x8BE2;
+                document.getElementById(&apos;triangle_search&apos;).addEventListener(&apos;click&apos;, function() {
+                    doSearch(&apos;triangle&apos;);
+                });
+                //&#x77E9;&#x5F62;&#x67E5;&#x8BE2;
+                document.getElementById(&apos;rectangle_search&apos;).addEventListener(&apos;click&apos;, function() {
+                    doSearch(&apos;rectangle&apos;);
+                });
+                //&#x5706;&#x5F62;&#x67E5;&#x8BE2;
+                document.getElementById(&apos;circular_search&apos;).addEventListener(&apos;click&apos;, function() {
+                    doSearch(&apos;circular&apos;);
+                });
+                //&#x591A;&#x8FB9;&#x5F62;&#x67E5;&#x8BE2;
+                document.getElementById(&apos;polygon_search&apos;).addEventListener(&apos;click&apos;, function() {
+                    doSearch(&apos;polygon&apos;);
+                });
+            }
+
+            function renderResult(res) {
+
+                var resBox = document.getElementsByClassName(&apos;res-box&apos;)[0];
+                resBox.style.display = &apos;block&apos;;
+                var top = document.getElementsByClassName(&apos;form-inline&apos;)[0].offsetTop;
+                resBox.style.top = `${top + 60}px `;
+
+                if (res.status !== 10 || res.data === null) {
+                    resBox.innerHTML = `
+          &lt;ul&gt;
+              &lt;li class=&quot;res-error&quot;&gt;&#x67E5;&#x8BE2;&#x5931;&#x8D25;&lt;/li&gt;
+          &lt;/ul&gt;
+      `;
+                    return;
+                }
+
+                resultData = res.data;
+
+                alert(JSON.stringify(resultData));
+
+                if (resultData === null || resultData.length === 0) {
+                    resBox.innerHTML = `
+          &lt;ul&gt;
+              &lt;li class=&quot;res-error&quot;&gt;&#x67E5;&#x8BE2;&#x65E0;&#x7ED3;&#x679C;&lt;/li&gt;
+          &lt;/ul&gt;
+      `;
+                    return;
+                }
+
+                var ulElement = document.createElement(&apos;ul&apos;);
+                var overlayParams = [];
+
+                for (var i = 0, len = resultData.length; i &lt; len; i++) {
+
+                    (function(i) {
+
+                        var liElement = document.createElement(&apos;li&apos;);
+                        var overlayElement = document.createElement(&apos;div&apos;);
+                        var index = i + 1;
+                        liElement.innerHTML = `
+              &lt;a class=&quot;res-list&quot;&gt;
+                  &lt;div class=&quot;res-icon&quot;&gt;${index}&lt;/div&gt;
+                  &lt;div class=&quot;res-con&quot;&gt;
+                      &lt;div class=&quot;res-title&quot;&gt;dataId: ${resultData[i].dataId ? resultData[i].dataId : &apos;&#x672A;&#x77E5;&apos;}&lt;/div&gt;
+                      &lt;div class=&quot;res-address&quot;&gt;status: ${resultData[i].status ? resultData[i].status : &apos;&#x672A;&#x77E5;&apos;}&lt;/div&gt;
+                  &lt;/div&gt;
+              &lt;/a&gt;
+          `;
+
+                        overlayElement.setAttribute(&apos;class&apos;, &apos;res-icon&apos;);
+                        overlayElement.innerHTML = index;
+
+                        overlayParams.push({
+                            point: resultData[i].location.coordinates,
+                            element: overlayElement,
+                            offset: [0, 0]
+                        });
+                        liElement.addEventListener(&apos;click&apos;, function() {
+                            toDes(resultData[i]);
+                        }, false);
+
+                        ulElement.appendChild(liElement);
+
+                    })(i);
+                }
+                ulElement.id = &apos;resCon&apos;;
+
+                resBox.innerHTML = &apos;&apos;;
+
+                resBox.appendChild(ulElement);
+
+                kmap.addCustomOverlays({
+                    data: overlayParams,
+                    offset: [-11, -32],
+                    customOverlaysType: &apos;customType&apos;
+                });
+
+                kmap.moveTolnglat({
+                    type: 2,
+                    point: resultData[0].location.coordinates
+                });
+            }
+
+            function doSearch(type) {
+
+                kmap.removeAllGeometries();
+
+                kmap.removeCustomOverlaysByType({
+                    customOverlaysType: &apos;customType&apos;
+                });
+                var keyword = document.getElementById(&apos;keyword&apos;).value;
+                var pageNumber = document.getElementById(&apos;pageNumber&apos;).value;
+                var maxCount = document.getElementById(&apos;maxCount&apos;).value;
+
+                if (!pageNumber || pageNumber &lt;= 0) {
+                    alert(&apos;&#x8BF7;&#x8F93;&#x5165;&#x9875;&#x7801;&apos;);
+                    return;
+                }
+
+                if (!maxCount || maxCount &lt;= 0) {
+                    alert(&apos;&#x8BF7;&#x8F93;&#x5165;&#x6700;&#x5927;&#x6570;&#x91CF;&apos;);
+                    return;
+                }
+
+                var n_pageNumber = parseInt(pageNumber);
+                var n_maxCount = parseInt(maxCount);
+
+                if (isNaN(n_pageNumber) || isNaN(n_maxCount)) {
+                    alert(&apos;&#x9875;&#x7801;&#x6216;&#x6700;&#x5927;&#x6570;&#x91CF;&#x8F93;&#x5165;&#x4E0D;&#x5408;&#x6CD5;&apos;);
+                    return;
+                }
+
+                var params = {
+                    serviceId: &apos;67&apos;,
+                    maxCount: n_maxCount,
+                    pageNo: n_pageNumber,
+                    terms: [{
+                        column: &apos;dataId&apos;,
+                        value: keyword,
+                        termType: &apos;like&apos;,
+                    }],
+                    callback: renderResult
+                };
+
+                switch (type) {
+                    case &apos;triangle&apos;:
+                        kmap.queryCustomTriangleSpace(params);
+                        break;
+                    case &apos;rectangle&apos;:
+                        kmap.queryCustomRectangleSpace(params);
+                        break;
+                    case &apos;circular&apos;:
+                        kmap.queryCustomCircularSpace(params);
+                        break;
+                    case &apos;polygon&apos;:
+                        kmap.queryCustomPolygonSpace(params);
+                        break;
+                    default:
+                        break;
+                }
+            }
+
+            function toDes(item) {
+                kmap.moveTolnglat({
+                    type: 2,
+                    point: item.location.coordinates
+                });
+            }
+
+
+            kmap = new KMap(config);
+        }
+    &lt;/script&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+&lt;script src=&apos;/kmapdemo/js/jquery-2.2.3.min.js&apos;&gt;&lt;/script&gt;
+
+&lt;script src=&apos;/kmapdemo/js/paging.js&apos;&gt;&lt;/script&gt;
+</code></pre>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="自由数据关键字查询.html" class="navigation navigation-prev " aria-label="Previous page: 自由数据关键字查询">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="最短路径规划.html" class="navigation navigation-next " aria-label="Next page: 最短路径规划">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"自由数据多边形查询","level":"1.5.9","depth":2,"next":{"title":"最短路径规划","level":"1.5.10","depth":2,"path":"服务/最短路径规划.md","ref":"服务/最短路径规划.md","articles":[]},"previous":{"title":"自由数据关键字查询","level":"1.5.8","depth":2,"path":"服务/自由数据关键字查询.md","ref":"服务/自由数据关键字查询.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"服务/自由数据多边形查询.md","mtime":"2018-12-10T09:24:10.630Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-12-11T07:56:50.792Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
